@@ -32,8 +32,16 @@
       }
       let sidebar_sub = document.querySelector(".sidebar");
       let sidebarBtn = document.querySelector(".bx_cog");
-      console.log(sidebarBtn);
+      
+      /* console.log(sidebarBtn); */
       sidebarBtn.addEventListener("click", ()=>{
         sidebar_sub.classList.toggle("active");
+        if (!checkbox.checked) {
+          checkbox.checked = true;
+        } else {
+          checkbox.checked = false;
+        }
       });
+
+      
     
