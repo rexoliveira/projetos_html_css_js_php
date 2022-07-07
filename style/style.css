@@ -53,7 +53,7 @@
 
 /* Alinha o icone do botão login na página principal */
 span.material-icons {
-    font-size: 35px;
+    font-size: 32px;
     position: absolute;
     left: -35px;
     top: 0px;
@@ -102,9 +102,10 @@ span.material-icons {
 
 }
 
-.but_log {
-    margin-left: 190px;
+.but_log button {
+    margin: 20px;
 }
+
 
 .menu {
     margin-left: 140px;
