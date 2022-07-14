@@ -524,6 +524,7 @@ a {
 
     img.logo.principal {
         display: none;
+        transition: all 0.4s ease;
     }
 
     h1.title_principal {
