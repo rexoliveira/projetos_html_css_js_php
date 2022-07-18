@@ -444,23 +444,6 @@ span.material-icons {
 
     }
 
-    .rodape {
-        display: flex;
-        flex-direction: row;
-        max-height: 1vh;
-
-    }
-
-    .rodape_title_texto {
-        font-size: 25px;
-        color: #ffffff;
-
-    }
-
-    .rodape_credito {
-        justify-content: flex-end;
-    }
-
 }
 
 a {
