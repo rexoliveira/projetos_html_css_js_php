@@ -46,9 +46,6 @@ html, body {
     border-radius: 5px;
 }
 
-h1.title{
-    margin-right: 200px;
-}
 
 .button_bot:before {
     content: '';

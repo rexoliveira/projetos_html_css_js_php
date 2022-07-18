@@ -98,7 +98,6 @@ span.material-icons {
 .logo_title {
     display: flex;
     width: 100%;
-    float: left;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -124,8 +123,9 @@ span.material-icons {
 
 }
 
-.title {
-    font-size: 75px;
+h1.title {
+    margin: 0;
+    font-size: 70px;
     padding: 12px;
     color: #61f889;
     font-family: 'Righteous', cursive;
@@ -480,14 +480,10 @@ a {
         padding: 20px;
     }
 
-
-
     .item_menu {
         color: #ffffff;
         font-size: 14px;
     }
-
-
 
     .rodape {
         display: flex;
@@ -511,7 +507,7 @@ a {
     }
 
     h1.title_principal {
-        font-size: 25px;
+        font-size: 2px;
 
     }
 
