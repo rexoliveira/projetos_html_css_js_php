@@ -59,7 +59,7 @@
               <a class="cabecalho_menu_item" href="../page/login.html">Login</a>
             </button>
           </p>
-          <form action="#">
+          <form id="form_cadastro" action="/php/processa.php" method="POST">
             <section class="input_group">
               <label for="nome">Nome Completo</label>
               <input
@@ -98,11 +98,12 @@
             </section>
             <section class="input_group w50 c_senha">
               <label for="confirmar_senha">Confirmar a Senha</label>
+              <!-- Colocar require -->
               <input
                 type="password"
                 id="confirmar_senha"
                 placeholder="Confirme a senha"
-                required
+                
               />
             </section>
             <section class="input_group">
