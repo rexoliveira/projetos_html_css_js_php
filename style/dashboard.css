@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.c-card{
+    background-color: #ced4da;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px
+}
+
+.l-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    padding: 30px; 
+}
+
+.u-text-placeholder{
+    background-color: #434547;
+    color: #434547;
+}
